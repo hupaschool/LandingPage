@@ -1,8 +1,3 @@
-* {
-  box-sizing: border-box;
-  
-}
-
 html, body {
   margin: 0;
   padding: 0;
@@ -21,6 +16,17 @@ body {
   background-position: center center;
 }
 
-.test {
-  width: 100%;
+.logo {
+  position: absolute;
+  width: 17vw;
+} 
+
+#iaf-logo {
+  top: 1vh;
+  right: 2vw;
+}
+
+#kanaf-logo{
+  top: 1vh;
+  left: 2vw;
 }
