@@ -6,6 +6,21 @@ html, body {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: "aduma-medium";
+  src: url("./assets/fonts/AdumaMedium.ttf");
+}
+
+@font-face {
+  font-family: "aduma-regular";
+  src: url("./assets/fonts/AdumaRegular.ttf");
+}
+
+@font-face {
+  font-family: "aduma-bold";
+  src: url("./assets/fonts/AdumaBold.ttf");
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -29,4 +44,71 @@ body {
 #kanaf-logo{
   top: 1vh;
   left: 2vw;
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide{
+  margin-right: 16.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #274C77;
+  height: 50vh;
+  width: 65vw;
+  border-width: 6px;
+  border-style: solid;
+  border-image: linear-gradient(to top, white, gray, white, gray, white) 5;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.slide-text{
+  color: white;
+  text-align: center;
+  font-family: "aduma-medium";
+  font-size: 3.5vh;
+}
+
+.slide-text-box{
+  width: 50vw;
+}
+
+.swiper-button-next-custom{
+  z-index: 2;
+  position: absolute;
+  left: 5vw;
+  height: 10vh;
+  width: 10vw;
+  background-image: url("./assets/nextarw.svg");
+  background-position: center ;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-prev-custom{
+  z-index: 1;
+  position: absolute;
+  right: 5vw;
+  height: 10vh;
+  width: 10vw;
+  background-image: url("./assets/backarw.svg");
+  background-position: center ;
+  background-repeat: no-repeat;
+}
+
+button{
+  background-color: transparent;
+  border: none;
 }
