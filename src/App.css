@@ -144,3 +144,15 @@ button{
   font-size: 4vh;
 }
 
+.first-slide{
+  background-image: url("./assets/ba6c3543-c8fc-40ec-8986-93e8f08956cd.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-button-prev-custom.swiper-button-disabled,
+.swiper-button-next-custom.swiper-button-disabled {
+  opacity: 0;        /* hides them */
+  pointer-events: none; /* make them unclickable */
+  transition: opacity 0.3s ease;
+}
