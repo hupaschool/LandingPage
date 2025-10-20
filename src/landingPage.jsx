@@ -39,6 +39,7 @@ const LandingPage = () => {
     },
     { text: "חלק מהעיסוקים מסווגים ועל כן לא ניתן להרחיב", page: "9/9" },
   ];
+
   return (
     <div className="box-content">
       <div className="header">
@@ -51,6 +52,8 @@ const LandingPage = () => {
         <img className="logo" id="kanaf-logo" src={kanaf} alt="kanaf symbol" />
       </div>
       <div className="page-content">
+        <div className="title"> לוחמת כנף 7</div>
+
         <div className="carousel">
           <button className="swiper-button-next-custom"></button>
           <Swiper

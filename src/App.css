@@ -115,7 +115,7 @@ button{
 }
 
 .page-content{
-  top: 15vh;
+  top: 10vh;
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -135,5 +135,12 @@ button{
 .lower-title{
   font-size: 3vh;
   font-family: "aduma-bold";
+}
+
+.title{
+  margin-bottom: 1vh;
+  font-family: "aduma-bold";
+  color: white;
+  font-size: 4vh;
 }
 
