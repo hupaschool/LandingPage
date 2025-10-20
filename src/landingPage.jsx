@@ -45,7 +45,7 @@ const LandingPage = () => {
       className: "slide"
 
     },
-    { text: "חלק מהעיסוקים מסווגים ועל כן לא ניתן להרחיב", page: "8/8", className: "slide" },
+    { text: " חלק מהעיסוקים מסווגים ועל כן לא ניתן להרחיב מעבר", page: "8/8", className: "slide" },
   ];
 
   return (
