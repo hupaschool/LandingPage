@@ -47,11 +47,12 @@ body {
 }
 
 .carousel{
+  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
+  /* bottom: 30vh; */
   width: 100vw;
-  height: 100vh;
 }
 
 .slides {
@@ -112,3 +113,27 @@ button{
   background-color: transparent;
   border: none;
 }
+
+.page-content{
+  top: 20vh;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lower-text{
+  margin-top: 3vh;
+  font-family: "aduma-regular";
+  color: white;
+  font-size: 3vh;
+}
+
+.lower-title{
+  font-size: 4vh;
+  font-family: "aduma-bold";
+}
+
