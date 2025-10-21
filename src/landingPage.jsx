@@ -90,14 +90,7 @@ const LandingPage = () => {
           </Swiper>
           <button className="swiper-button-prev-custom"></button>
         </div>
-        <div className="lower-text" dir="rtl">
-          <div className="lower-text-content">
-            אם את מחפשת לקום כל בוקר לאירוע חדש, <br />
-            להפעיל את הראש ולתת מעצמך בכדי <br />
-            שההפתעה הבאה של ה-7.10 לא תתממש
-          </div>
-          <div className="lower-title"> מקומך איתנו.</div>
-        </div>
+        
       </div>
     </div>
   );
