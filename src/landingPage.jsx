@@ -92,7 +92,7 @@ const LandingPage = () => {
         </div>
         <div className="footer">
           <div className="regular-text"> 
-            <a href="https://docs.google.com/spreadsheets/d/1yKGOgawlMU2Csy3essWKGx-mwPHDfLVevcyXYXXoDzQ/edit?usp=sharing">להרשמה לחצו כאן</a>
+            {/* <a href="https://docs.google.com/spreadsheets/d/1yKGOgawlMU2Csy3essWKGx-mwPHDfLVevcyXYXXoDzQ/edit?usp=sharing">להרשמה לחצו כאן</a> */}
           </div>
 
         </div>
