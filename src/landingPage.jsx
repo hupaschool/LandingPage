@@ -90,7 +90,12 @@ const LandingPage = () => {
           </Swiper>
           <button className="swiper-button-prev-custom"></button>
         </div>
-        
+        <div className="footer">
+          <div className="regular-text"> 
+            <a href="https://docs.google.com/spreadsheets/d/1yKGOgawlMU2Csy3essWKGx-mwPHDfLVevcyXYXXoDzQ/edit?usp=sharing">להרשמה לחצי</a>
+          </div>
+
+        </div>
       </div>
     </div>
   );

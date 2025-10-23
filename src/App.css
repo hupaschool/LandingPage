@@ -172,3 +172,14 @@ button{
   color: white;
   font-family: "aduma-medium";
 }
+
+.regular-text {
+  margin-top: 1vh;
+  font-family: "aduma-regular";
+  color: white;
+  font-size: 4.5vh;
+}
+
+a {
+  color: white;
+}
