@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 const LandingPage = () => {
   let slidesInfo = [
     {text: 'יחידת אופיר',additionalText: 'כנף 7 - כוחות אוויר מיוחדים', page: '', className: 'slide first-slide'},
+    {text: '',additionalText: 'הרכב כנף 7', page: '', className: 'slide second-slide'},
     {
       text: 'היחידה אחראית על תגובה מיידית לאירועים מורכבים וקיצוניים. פעילות היחידה משתלבת יחד עם יחידות הכנף',
       page: "1/7",

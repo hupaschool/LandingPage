@@ -89,6 +89,15 @@ body {
   margin-top: 23vh;
 }
 
+.second-slide{
+  font-family: "aduma-bold";
+  background-image: url("./assets/wingOrg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: flex-start;
+}
+
 .slide-additional-text{
   color: white;
   text-align: center;
