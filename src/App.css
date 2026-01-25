@@ -86,6 +86,7 @@ body {
 .slide-text--big{
   font-size: 6vh;
   font-family: "aduma-bold";
+  margin-top: 23vh;
 }
 
 .slide-additional-text{
@@ -158,6 +159,10 @@ button{
 
 .first-slide{
   font-family: "aduma-bold";
+  background-image: url("./assets/ofirBg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .swiper-button-prev-custom.swiper-button-disabled,
