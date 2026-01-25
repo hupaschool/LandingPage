@@ -8,39 +8,44 @@ import "swiper/css/pagination";
 
 const LandingPage = () => {
   let slidesInfo = [
-    {text: '', page: '', className: 'slide first-slide'},
+    {text: 'יחידת אופיר',additionalText: 'כנף 7 - כוחות אוויר מיוחדים', page: '', className: 'slide first-slide'},
     {
       text: 'היחידה אחראית על תגובה מיידית לאירועים מורכבים וקיצוניים. פעילות היחידה משתלבת יחד עם יחידות הכנף',
       page: "1/7",
+      additionalText: '',
       className: "slide"
 
     },
     { text: "השתלבות בתעסוקה מבצעית", page: "2/7", className: "slide" },
     {
       text:'מסלול השירות כולל יציאה לפיקוד ולהכשרות מקצועיות נוספות',
+      additionalText: '',
       page: "3/7",
       className: "slide"
 
     },
     {
       text: 'רכישת מיומנויות ייחודיות במהלך המסלול בעולמות תוכן יחודיים - צליפה, רחפנים, רפואה, לוחמה בשטח בנוי, יכולות מוסקות, איסוף מודיעין מהקרקע ומהאוויר',
+      additionalText: '',
       page: "4/7",
       className: "slide"
 
     },
     {
       text: "הכשרה במתכונת ייחודית שמתבססת על קירוב למצב אמת - שטח, אוויר, פעילות מרחוק, לוחמה בשטח בנוי, איסוף מודיעין, הסתערות, עבודה בגבולות המדינה והבסיסים",
+      additionalText: '',
       page: "5/7",
       className: "slide"
 
     },
     {
       text: 'שיתוף פעולה עם כוחות חיצוניים - שב"כ, משטרה, חיל הגנת הגבולות, יחידות נוספות בחיל האוויר',
+      additionalText: '',
       page: "6/7",
       className: "slide"
 
     },
-    { text: " חלק מהעיסוקים מסווגים ועל כן לא ניתן להרחיב מעבר", page: "7/7", className: "slide" },
+    { text: " חלק מהעיסוקים מסווגים ועל כן לא ניתן להרחיב מעבר",additionalText: '', page: "7/7", className: "slide" },
   ];
 
   return (
@@ -70,11 +75,12 @@ const LandingPage = () => {
             slidesPerView={1}
             className="slides"
           >
-            {slidesInfo.map((slide) => (
+            {slidesInfo.map((slide, index) => (
               <SwiperSlide>
                 <div className={slide.className}>
                   <div className="slide-text-box">
-                    <div className="slide-text">{slide.text}</div>
+                    <div className="slide-additional-text">{slide.additionalText}</div>
+                    <div className={`slide-text ${index === 0 ? "slide-text--big" : ""}`}>{slide.text}</div>
                   </div>
                   <div className="bottom-slide">
                     <div className="slide-text slide-number">{slide.page}</div>
