@@ -118,6 +118,7 @@ body {
 .english-slide-add{
   font-family: "oswald-medium";
   font-size: 2vh;
+  color: white;
 }
 
 .english-slide-text{
@@ -133,8 +134,8 @@ body {
 
 select{
   position: absolute;
-  left: 5vw;
-  top: 0vh;
+  left: 2vw;
+  top: -5vh;
   border-radius: 20px;
   background-color: rgb(233, 245, 255);
   border: none;
@@ -164,7 +165,7 @@ option:focus{
 
 .second-slide{
   font-family: "aduma-bold", "oswald-bold";
-  background-image: url("./assets/wingOrg.svg");
+  background-image: url("./assets/updatedBgHebrew.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -234,7 +235,7 @@ button{
 
 .title{
   margin-bottom: 1vh;
-  font-family: "aduma-bold";
+  font-family: "aduma-bold", "oswald-bold";
   color: white;
   font-size: 4vh;
 }
@@ -280,4 +281,12 @@ button{
 
 a {
   color: white;
+}
+
+.second-slide-eng{
+  background-image: url("./assets/updatedBgEng.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: flex-start;
 }

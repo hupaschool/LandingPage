@@ -64,13 +64,13 @@ const LandingPage = () => {
   const slidesInfoEng = [
     {
       text: "Ofir Unit",
-      additionalText: "Wing 7- Special Air Forces",
+      additionalText: "7th Wing- Special Air Forces",
       page: "",
       className: "slide first-slide",
     },
     {
       text: "",
-      additionalText: "Wing 7 Units",
+      additionalText: "7th Wing Units",
       page: "",
       className: "slide second-slide",
     },
@@ -131,7 +131,7 @@ const LandingPage = () => {
         <img className="logo" id="kanaf-logo" src={kanaf} alt="kanaf symbol" />
       </div>
       <div className="page-content">
-        <div className="title"> לוחמת כנף 7</div>
+        <div className="title">{eng ? "7th Wing Combat Soldier": "לוחמת כנף 7"}</div>
         <div className="language-switch">
           <select
             value={eng ? "english" : "hebrew"}
@@ -156,7 +156,7 @@ const LandingPage = () => {
           >
             {slides.map((slide, index) => (
               <SwiperSlide>
-                <div className={`${slide.className} ${eng ? "english-slide": ""}`} >
+                <div className={`slide ${eng && index === 1? "second-slide-eng":slide.className} ${eng && index !== 1 ? "english-slide": ""}`} >
                   <div className="slide-text-box">
                     <div className={`${eng ? "english-slide-add" :"slide-additional-text"}`}>
                       {slide.additionalText}
