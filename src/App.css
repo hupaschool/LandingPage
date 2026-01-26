@@ -144,6 +144,10 @@ select{
   height: auto;
 }
 
+select:focus{
+  outline: none;
+}
+
 option{
   font-family: "oswald-light","aduma-regular";
   font-size: 2vh;
