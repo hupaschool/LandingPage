@@ -7,6 +7,31 @@ html, body {
 }
 
 @font-face {
+  font-family: "oswald-light";
+  src: url("./assets/fonts/oswald/Oswald-Light.ttf");
+}
+
+@font-face {
+  font-family: "oswald-regular";
+  src: url("./assets/fonts/oswald/Oswald-regular.ttf");
+}
+
+@font-face {
+  font-family: "oswald-medium";
+  src: url("./assets/fonts/oswald/Oswald-Medium.ttf");
+}
+
+@font-face {
+  font-family: "oswald-semibold";
+  src: url("./assets/fonts/oswald/Oswald-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "oswald-bold";
+  src: url("./assets/fonts/oswald/Oswald-Bold.ttf");
+}
+
+@font-face {
   font-family: "aduma-medium";
   src: url("./assets/fonts/AdumaMedium.ttf");
 }
@@ -85,12 +110,55 @@ body {
 
 .slide-text--big{
   font-size: 6vh;
-  font-family: "aduma-bold";
+  font-family: "aduma-bold", "oswald-bold";
   margin-top: 23vh;
+  color: white;
+}
+
+.english-slide-add{
+  font-family: "oswald-medium";
+  font-size: 2vh;
+}
+
+.english-slide-text{
+  font-family: "oswald-regular";
+  font-size: clamp(2.5vh, 2.5vw, 3vh);
+}
+
+.english-slide{
+  color: white;
+  font-family: "oswald-regular";
+}
+
+select{
+  position: absolute;
+  left: 5vw;
+  top: 0vh;
+  border-radius: 20px;
+  background-color: rgb(233, 245, 255);
+  border: none;
+  font-family: "oswald-light","aduma-regular";
+  font-size: 3vh;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+option{
+  font-family: "oswald-light","aduma-regular";
+  font-size: 2vh;
+  text-align: center;
+  border: none;
+  overflow: hidden;
+  outline: none;
+}
+
+option:focus{
+  outline: none;
 }
 
 .second-slide{
-  font-family: "aduma-bold";
+  font-family: "aduma-bold", "oswald-bold";
   background-image: url("./assets/wingOrg.svg");
   background-repeat: no-repeat;
   background-size: cover;
