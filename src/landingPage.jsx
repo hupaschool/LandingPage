@@ -64,29 +64,29 @@ const LandingPage = () => {
   const slidesInfoEng = [
     {
       text: "Ofir Unit",
-      additionalText: "Seventh Wing - Special Air Forces",
+      additionalText: "Wing 7- Special Air Forces",
       page: "",
       className: "slide first-slide",
     },
     {
       text: "",
-      additionalText: "Seventh Wing Composition",
+      additionalText: "Wing 7 Units",
       page: "",
       className: "slide second-slide",
     },
     {
-      text: "The unit is responsible for immediate response to complex and extreme events. The unit's activities are integrated with the rest of the wing's units",
+      text: "The unit is responisble for providing an immediate response to complex and extreme incidents. The unit's operations are carried out in coordination with the wing's units.",
       page: "1/7",
       additionalText: "",
       className: "slide",
     },
     {
-      text: "Integration in operational work",
+      text: "Integration into operational service",
       page: "2/7",
       className: "slide",
     },
     {
-      text: "The service track includes going out to command and additional professional training",
+      text: "The service track includes deployment to command and officer roles, as well as additional professional training",
       additionalText: "",
       page: "3/7",
       className: "slide",
